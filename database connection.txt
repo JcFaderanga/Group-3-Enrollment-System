@@ -1,0 +1,9 @@
+
+database name - db_enrollment
+table name - tbl_enrollment
+
+
+create database db_enrollment;
+
+
+create table tbl_enrollment (id int(100) not null auto_increment, primary key(id), firstname varchar(255)not null,middlename varchar(255) not null,surname varchar(255) not null,surffix varchar(255) not null, birthdate varchar(255) not null ,gender varchar(255) not null ,contactnumber int(15) not null,course varchar(255) not null, adress varchar(255) not null, lastschool varchar(255) not null ,Gfirstname varchar(255) not null ,Gsurname varchar(255) not null ,Gnumber int(255) not null);

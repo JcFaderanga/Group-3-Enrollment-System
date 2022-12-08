@@ -1,0 +1,161 @@
+
+
+.content{
+	position: absolute;
+margin-top: 8%;
+    display: none;
+align-self: center;
+	-webkit-animation: fadeIn .5s both; 
+}
+@-webkit-keyframes fadeInBottom {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateY(-100px);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+  }
+}
+
+.content-enrollment-form{
+	position: absolute;
+align-self: center;
+	 display: none;
+	 margin-top: 5%;
+
+
+	-webkit-animation: fadeIn .3s both; 
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateY(0);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+  }
+}
+.tags{
+	width: 115px;
+	display:flex;
+	margin: 20px;
+	margin-right: 0;
+	color: #1f1f1f;
+
+
+
+	}
+.details{
+
+   width: auto;
+   height: 50px;
+   padding: 10px;
+   padding-bottom: 0;
+   padding-top: 0;
+   display: flex;
+   margin: 10px;
+   align-items: center;
+}
+.details input[type=text]{
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 8px 10px;
+
+	
+	background: transparent;
+	align-items: center;
+}
+input[type=text]:valid,
+input[type=text]:focus{
+		box-shadow-bottom: 0 0 2px green;
+}
+.info{
+	display: flex;
+    border-radius: 5px;
+	background: rgba(255,255,255);
+	height: 700px;
+	width: 1000px;
+	padding-right: 20px;
+    justify-content: center;
+	align-self: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.laman-header{
+
+	height: 50px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 5px 2px -2px rgba(0,0,0,0.1);
+	width: 1020px;
+}
+.laman-header h5{
+	margin-left: 20px;
+	font-size: 15px;
+
+
+}
+.laman{
+	width: 1000px;
+}
+
+/* detais */
+
+.ID{
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+	/*box-shadow: 0 5px 2px -2px rgba(0,0,0,0.1);*/
+	
+}
+.ID .tags{
+
+ width: 135px;
+}
+ .NAME{
+width: 100%;
+display: flex;
+
+  justify-content: space-between;
+}
+
+
+.NAME .details{
+   
+	  width: 100%;
+	 
+	  justify-content: flex-start;
+
+	  
+}
+.AB{
+	display: flex;
+	
+}
+.A ,.B{
+	width: 50%;
+}
+
+.G{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+
+}
+.G h5{
+	font-weight: 400;
+	font-size: 25px;
+	color: rgba(0,0,0,0.75);
+
+}
+
+.half{
+	
+	width: 50%;
+}

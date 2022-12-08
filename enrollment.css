@@ -1,0 +1,377 @@
+*{
+	padding: 0;
+	margin: 0;
+     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.background{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+background: rgb(31,31,31);
+background: linear-gradient(90deg, rgba(31,31,31,1) 0%, rgba(27,31,34,1) 50%, rgba(27,31,34,1) 80%);
+}
+
+@media (min-width:576px){.container{max-width:540px}}
+@media (min-width:768px){.container{max-width:720px}}
+@media (min-width:992px){.container{max-width:960px}}
+@media (min-width:1200px){.container{max-width:1140px}}
+.container{
+    width:100%;
+    height: 100vh;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    justify-content: center;
+    }
+
+
+    .custom-shape-divider-bottom-1669797724 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669797724 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+.lr{
+  display: flex;
+  width: 100%;
+
+}
+.custom-shape-divider-bottom-1669797724 .shape-fill {
+    fill: #417505;
+}
+
+    .right, .left{
+    width: 100%;
+    height: 100%;
+    }
+
+.header{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:20px;
+padding-left:20px;
+-webkit-animation: fadeInTop 1.2s both; 
+}
+@-webkit-keyframes fadeInTop {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      align-self: bottom;
+  }
+}
+
+
+ ul a{
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid green;
+       border-radius: 25px;
+    font-size:17px;
+    font-family: arial;
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position: relative;
+}
+
+ ul a:active{
+     transform: scale(.98);
+     
+ }
+  .admin::before{
+    content: '';
+    width: 100px;
+    height: 0;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+   .admin:hover::before{
+content: 'Admin';
+  height: 35px;
+   }
+
+     .admission-c::before{
+    content: '';
+    width: 100px;
+    height: 0;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+   .admission-c:hover::before{
+content: 'Admission';
+  height: 35px;
+   }
+
+    .home::before{
+    content: '';
+    width: 100px;
+    height: 0;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+   .home:hover::before{
+content: 'Home';
+  height: 35px;
+   }
+
+   .acads::before{
+    content: '';
+    width: 100px;
+    height: 0;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+   .acads:hover::before{
+content: 'Academics';
+  height: 35px;
+   }
+
+   .about::before{
+    content: '';
+    width: 100px;
+    height: 0;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+   .about:hover::before{
+content: 'About';
+  height: 35px;
+   }
+
+ .add{
+    background: green;
+ }
+ .admission-c{
+ display: none;
+ -webkit-animation: fadeIn .5s both; 
+}
+.logo{
+    height: 45px;
+    justify-content: center;
+  
+}
+.plmun-logo{
+  display: flex;
+  align-items: center;
+}
+    .right{
+        display: flex;
+        align-items: center;
+      
+ 
+    }
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .par{
+   color: white;
+    -webkit-animation: fadeInRight 1.5s both; 
+
+}
+@-webkit-keyframes fadeInRight {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateX(50px);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+  }
+}
+p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Raleway, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+    .plmun{
+        color: white;
+        height: auto;
+        width: 350px;
+        margin-left: 30px; 
+        
+         
+    }
+      h1{
+        font-size: 50px;
+        font-weight: 400;
+        margin-left: 50px: 
+    }
+    .plmun h5{
+        font-size: 30px;
+        font-weight: 400;
+    }
+ 
+    .right-content{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+    }
+    .enroll{
+    
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        padding-left: 20px;
+        
+    }
+
+.qoutes{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+ text-align: center;
+  width: 100%;
+  height: 70px;
+  margin-left: -20px;
+  color: green;
+}
+
+    .enroll, .plmun{
+          -webkit-animation: fadeInLeft 1.2s both; 
+
+}
+    @-webkit-keyframes fadeInLeft {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateX(-100px);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+  }
+}
+
+    .qoutes h4{
+        color: white;
+        font-weight: 400;
+
+    }
+    .enroll-div{
+      width: 100%;
+      height: 100px;
+
+
+    }
+     .enroll-div a{
+        width: 300px;
+        padding: 15px 0;
+        height: 20px;
+        text-align: center;
+        border-radius: 50px;
+        font-weight: bold;
+        border: 2px solid green;
+        background: transparent;
+        color: green;
+        cursor: pointer;
+
+    }
+   .enroll-div a:hover{
+        background: green;
+        color: white;
+          box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+          
+    }
+      .enroll-div a:active{
+        transform: scale(.98);
+     }
+.button-list{
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+
+
+
+
+}
+.button-list .submit{
+  background: green;
+  height: 50px;
+  width: 200px;
+  margin-right: 100px;
+  margin-top: 20px;
+
+}
+
+.details-names{
+  display: flex;
+  width: 100px;
+}
+.footer{
+  width: 100%;
+    -webkit-animation: fadeIn 1.2s both; 
+  height: 200px;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+ }
+
+ .fadeoutL{
+ -webkit-animation: fadeOut 2.2s both; 
+ }
